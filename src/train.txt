@@ -1,0 +1,3 @@
+python ./src/train.py -content_dir ./datasets/COCO10k/ -style_dir ./datasets/wikiart10k/ -gamma 1.0 -e 20 -b 44 -l encoder.pth -s 10k_decoder.pth -p 10k_decoder.png -cuda n
+python ./src/train.py -content_dir ./datasets/COCO1k/ -style_dir ./datasets/wikiart1k/ -gamma 1.0 -e 20 -b 32 -l encoder.pth -s 1k_decoder.pth -p 1k_decoder.png -cuda Y
+python ./src/train.py -content_dir ./datasets/COCO100/ -style_dir ./datasets/wikiart100/ -gamma 1.0 -e 20 -b 20 -l encoder.pth -s 100_decoder.pth -p 100_decoder.png -cuda Y
